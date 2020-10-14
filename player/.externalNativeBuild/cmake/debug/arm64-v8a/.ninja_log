@@ -1,0 +1,7 @@
+# ninja log v5
+2	825	0	CMakeFiles/dp-media.dir/src/main/cpp64/player/MediaPlayer.cpp.o	62ff4ab48cd02430
+5	903	0	CMakeFiles/dp-media.dir/src/main/cpp64/editor/MediaTranscoder.cpp.o	3ff03ca67cd7ced9
+4	1440	0	CMakeFiles/dp-media.dir/src/main/cpp64/editor/MediaHelper.cpp.o	73d3c0136721143f
+3	1477	0	CMakeFiles/dp-media.dir/src/main/cpp64/editor/MediaEditor.cpp.o	2b739caf1d13c144
+1	1888	0	CMakeFiles/dp-media.dir/src/main/cpp64/JniInit.cpp.o	9eb5578d810025ef
+1888	2081	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libdp-media.so	1eba9e42454a2627

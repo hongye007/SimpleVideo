@@ -1,0 +1,70 @@
+
+{
+	"buildFiles" : [ "/Users/admin/Work/admin/SimpleVideo/player/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/admin/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/admin/Work/admin/SimpleVideo/player/.externalNativeBuild/cmake/debug/arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"dp-media-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "dp-media",
+			"buildCommand" : "/Users/admin/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/admin/Work/admin/SimpleVideo/player/.externalNativeBuild/cmake/debug/arm64-v8a --target dp-media",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/admin/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/admin/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Ddp_media_EXPORTS -I../../../../src/main/cpp64/include -I../../../../src/main/cpp64/player -I../../../../src/main/cpp64/editor -I../../../../src/main/cpp64/tool  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -g -fPIC    -c ",
+					"src" : "/Users/admin/Work/admin/SimpleVideo/player/src/main/cpp64/JniInit.cpp",
+					"workingDirectory" : "/Users/admin/Work/admin/SimpleVideo/player/.externalNativeBuild/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/admin/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/admin/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Ddp_media_EXPORTS -I../../../../src/main/cpp64/include -I../../../../src/main/cpp64/player -I../../../../src/main/cpp64/editor -I../../../../src/main/cpp64/tool  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -g -fPIC    -c ",
+					"src" : "/Users/admin/Work/admin/SimpleVideo/player/src/main/cpp64/player/MediaPlayer.cpp",
+					"workingDirectory" : "/Users/admin/Work/admin/SimpleVideo/player/.externalNativeBuild/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/admin/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/admin/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Ddp_media_EXPORTS -I../../../../src/main/cpp64/include -I../../../../src/main/cpp64/player -I../../../../src/main/cpp64/editor -I../../../../src/main/cpp64/tool  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -g -fPIC    -c ",
+					"src" : "/Users/admin/Work/admin/SimpleVideo/player/src/main/cpp64/editor/MediaEditor.cpp",
+					"workingDirectory" : "/Users/admin/Work/admin/SimpleVideo/player/.externalNativeBuild/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/admin/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/admin/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Ddp_media_EXPORTS -I../../../../src/main/cpp64/include -I../../../../src/main/cpp64/player -I../../../../src/main/cpp64/editor -I../../../../src/main/cpp64/tool  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -g -fPIC    -c ",
+					"src" : "/Users/admin/Work/admin/SimpleVideo/player/src/main/cpp64/editor/MediaHelper.cpp",
+					"workingDirectory" : "/Users/admin/Work/admin/SimpleVideo/player/.externalNativeBuild/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/admin/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/admin/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Ddp_media_EXPORTS -I../../../../src/main/cpp64/include -I../../../../src/main/cpp64/player -I../../../../src/main/cpp64/editor -I../../../../src/main/cpp64/tool  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -g -fPIC    -c ",
+					"src" : "/Users/admin/Work/admin/SimpleVideo/player/src/main/cpp64/editor/MediaTranscoder.cpp",
+					"workingDirectory" : "/Users/admin/Work/admin/SimpleVideo/player/.externalNativeBuild/cmake/debug/arm64-v8a"
+				}
+			],
+			"output" : "/Users/admin/Work/admin/SimpleVideo/player/build/intermediates/cmake/debug/obj/arm64-v8a/libdp-media.so",
+			"toolchain" : "9282789408325076851"
+		},
+		"dpffmpeg-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "dpffmpeg",
+			"buildType" : "debug",
+			"output" : "/Users/admin/Work/admin/SimpleVideo/player/src/main/jniLibs/arm64-v8a/libdpffmpeg.so",
+			"toolchain" : "9282789408325076851"
+		}
+	},
+	"toolchains" : 
+	{
+		"9282789408325076851" : 
+		{
+			"cCompilerExecutable" : "/Users/admin/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/admin/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

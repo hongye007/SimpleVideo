@@ -1,0 +1,99 @@
+
+{
+	"buildFiles" : [ "/Users/admin/Work/admin/SimpleVideo/rtmp-client/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/Users/admin/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/admin/Work/admin/SimpleVideo/rtmp-client/.externalNativeBuild/cmake/release/arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"rtmp-jni-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "rtmp-jni",
+			"buildCommand" : "/Users/admin/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/admin/Work/admin/SimpleVideo/rtmp-client/.externalNativeBuild/cmake/release/arm64-v8a --target rtmp-jni",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/admin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/admin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DNO_CRYPTO -Drtmp_jni_EXPORTS -I../../../../src/main/cpp/librtmp -I../../../../src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/admin/Work/admin/SimpleVideo/rtmp-client/src/main/cpp/librtmp/amf.c",
+					"workingDirectory" : "/Users/admin/Work/admin/SimpleVideo/rtmp-client/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/admin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/admin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DNO_CRYPTO -Drtmp_jni_EXPORTS -I../../../../src/main/cpp/librtmp -I../../../../src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/admin/Work/admin/SimpleVideo/rtmp-client/src/main/cpp/librtmp/hashswf.c",
+					"workingDirectory" : "/Users/admin/Work/admin/SimpleVideo/rtmp-client/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/admin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/admin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DNO_CRYPTO -Drtmp_jni_EXPORTS -I../../../../src/main/cpp/librtmp -I../../../../src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/admin/Work/admin/SimpleVideo/rtmp-client/src/main/cpp/librtmp/log.c",
+					"workingDirectory" : "/Users/admin/Work/admin/SimpleVideo/rtmp-client/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/admin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/admin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DNO_CRYPTO -Drtmp_jni_EXPORTS -I../../../../src/main/cpp/librtmp -I../../../../src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/admin/Work/admin/SimpleVideo/rtmp-client/src/main/cpp/librtmp/parseurl.c",
+					"workingDirectory" : "/Users/admin/Work/admin/SimpleVideo/rtmp-client/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/admin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/admin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DNO_CRYPTO -Drtmp_jni_EXPORTS -I../../../../src/main/cpp/librtmp -I../../../../src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/admin/Work/admin/SimpleVideo/rtmp-client/src/main/cpp/librtmp/rtmp.c",
+					"workingDirectory" : "/Users/admin/Work/admin/SimpleVideo/rtmp-client/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/admin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/admin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DNO_CRYPTO -Drtmp_jni_EXPORTS -I../../../../src/main/cpp/librtmp -I../../../../src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/admin/Work/admin/SimpleVideo/rtmp-client/src/main/cpp/rtmp-init.cpp",
+					"workingDirectory" : "/Users/admin/Work/admin/SimpleVideo/rtmp-client/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/admin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/admin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DNO_CRYPTO -Drtmp_jni_EXPORTS -I../../../../src/main/cpp/librtmp -I../../../../src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/admin/Work/admin/SimpleVideo/rtmp-client/src/main/cpp/RTMPHelper.cpp",
+					"workingDirectory" : "/Users/admin/Work/admin/SimpleVideo/rtmp-client/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/admin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/admin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DNO_CRYPTO -Drtmp_jni_EXPORTS -I../../../../src/main/cpp/librtmp -I../../../../src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/admin/Work/admin/SimpleVideo/rtmp-client/src/main/cpp/RtmpPush.cpp",
+					"workingDirectory" : "/Users/admin/Work/admin/SimpleVideo/rtmp-client/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/admin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/admin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DNO_CRYPTO -Drtmp_jni_EXPORTS -I../../../../src/main/cpp/librtmp -I../../../../src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/admin/Work/admin/SimpleVideo/rtmp-client/src/main/cpp/Queue.cpp",
+					"workingDirectory" : "/Users/admin/Work/admin/SimpleVideo/rtmp-client/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/admin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/admin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DNO_CRYPTO -Drtmp_jni_EXPORTS -I../../../../src/main/cpp/librtmp -I../../../../src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/admin/Work/admin/SimpleVideo/rtmp-client/src/main/cpp/push.cpp",
+					"workingDirectory" : "/Users/admin/Work/admin/SimpleVideo/rtmp-client/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/admin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/admin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DNO_CRYPTO -Drtmp_jni_EXPORTS -I../../../../src/main/cpp/librtmp -I../../../../src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/admin/Work/admin/SimpleVideo/rtmp-client/src/main/cpp/CallJava.cpp",
+					"workingDirectory" : "/Users/admin/Work/admin/SimpleVideo/rtmp-client/.externalNativeBuild/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/Users/admin/Work/admin/SimpleVideo/rtmp-client/build/intermediates/cmake/release/obj/arm64-v8a/librtmp-jni.so",
+			"toolchain" : "7902362879982753818"
+		}
+	},
+	"toolchains" : 
+	{
+		"7902362879982753818" : 
+		{
+			"cCompilerExecutable" : "/Users/admin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/admin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

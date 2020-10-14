@@ -1,2 +1,3 @@
 rootProject.name='SimpleVideo'
 include ':app'
+//, ':rtmp-client'

@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "/Users/admin/Work/admin/SimpleVideo/rtmp-client/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/admin/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/admin/Work/admin/SimpleVideo/rtmp-client/.externalNativeBuild/cmake/debug/arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "rtmp-jni-Debug-arm64-v8a": {
+      "artifactName": "rtmp-jni",
+      "buildCommand": "/Users/admin/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/admin/Work/admin/SimpleVideo/rtmp-client/.externalNativeBuild/cmake/debug/arm64-v8a --target rtmp-jni",
+      "abi": "arm64-v8a",
+      "output": "/Users/admin/Work/admin/SimpleVideo/rtmp-client/build/intermediates/cmake/debug/obj/arm64-v8a/librtmp-jni.so"
+    }
+  }
+}
